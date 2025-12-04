@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 39.73 s <<< FAILURE! -- in TestSuite
-Test.LoginTest.loginInvalidCredentials -- Time elapsed: 32.19 s <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 25.22 s <<< FAILURE! -- in TestSuite
+Test.LoginTest.loginInvalidCredentials -- Time elapsed: 3.447 s <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
