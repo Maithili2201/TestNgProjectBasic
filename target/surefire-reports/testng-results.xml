@@ -1,76 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="0" failed="1" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-04T18:11:09 IST" name="Suite" finished-at="2025-12-04T18:11:32 IST" duration-ms="23397">
+  <suite started-at="2025-12-05T17:53:13 IST" name="Suite" finished-at="2025-12-05T17:53:21 IST" duration-ms="8234">
     <groups>
       <group name="regression">
         <method signature="LoginTest.loginInvalidCredentials()[pri:0, instance:Test.LoginTest@6ef888f6]" name="loginInvalidCredentials" class="Test.LoginTest"/>
       </group> <!-- regression -->
     </groups>
-    <test started-at="2025-12-04T18:11:09 IST" name="Test" finished-at="2025-12-04T18:11:32 IST" duration-ms="23397">
+    <test started-at="2025-12-05T17:53:13 IST" name="Test" finished-at="2025-12-05T17:53:21 IST" duration-ms="8234">
       <class name="Test.LoginTest">
-        <test-method is-config="true" signature="configureDriver()[pri:0, instance:Test.LoginTest@6ef888f6]" started-at="2025-12-04T18:11:08 IST" name="configureDriver" finished-at="2025-12-04T18:11:09 IST" duration-ms="578" status="PASS">
+        <test-method is-config="true" signature="configureDriver()[pri:0, instance:Test.LoginTest@6ef888f6]" started-at="2025-12-05T17:53:12 IST" name="configureDriver" finished-at="2025-12-05T17:53:13 IST" duration-ms="544" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureDriver -->
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:Test.LoginTest@6ef888f6]" started-at="2025-12-04T18:11:09 IST" name="launchApp" finished-at="2025-12-04T18:11:28 IST" duration-ms="19294" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:Test.LoginTest@6ef888f6]" started-at="2025-12-05T17:53:13 IST" name="launchApp" finished-at="2025-12-05T17:53:18 IST" duration-ms="4787" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Test.LoginTest@6ef888f6]" started-at="2025-12-04T18:11:28 IST" name="beforeMethod" finished-at="2025-12-04T18:11:28 IST" duration-ms="21" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Test.LoginTest@6ef888f6]" started-at="2025-12-05T17:53:18 IST" name="beforeMethod" finished-at="2025-12-05T17:53:18 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="loginInvalidCredentials()[pri:0, instance:Test.LoginTest@6ef888f6]" started-at="2025-12-04T18:11:28 IST" name="loginInvalidCredentials" finished-at="2025-12-04T18:11:31 IST" duration-ms="3164" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at Test.LoginTest.loginInvalidCredentials(LoginTest.java:45)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="loginInvalidCredentials()[pri:0, instance:Test.LoginTest@6ef888f6]" started-at="2025-12-05T17:53:18 IST" name="loginInvalidCredentials" finished-at="2025-12-05T17:53:21 IST" duration-ms="2875" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginInvalidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.LoginTest@6ef888f6]" started-at="2025-12-04T18:11:32 IST" name="tearDown" finished-at="2025-12-04T18:11:32 IST" duration-ms="414" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.LoginTest@6ef888f6]" started-at="2025-12-05T17:53:21 IST" name="tearDown" finished-at="2025-12-05T17:53:21 IST" duration-ms="328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
