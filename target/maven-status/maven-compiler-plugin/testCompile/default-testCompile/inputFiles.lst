@@ -2,12 +2,14 @@ D:\java\MavenProject\src\test\java\utils\ConfigReader.java
 D:\java\MavenProject\src\test\java\utils\RetryListener.java
 D:\java\MavenProject\src\test\java\base\BasePage.java
 D:\java\MavenProject\src\test\java\pages\DashboardPage.java
+D:\java\MavenProject\src\test\java\utils\EnvironmentManager.java
 D:\java\MavenProject\src\test\java\utils\DataProviderUtils.java
 D:\java\MavenProject\src\test\java\utils\RetryAnalyzer.java
 D:\java\MavenProject\src\test\java\pages\LoginPage.java
 D:\java\MavenProject\src\test\java\package1\ClassOne.java
 D:\java\MavenProject\src\test\java\Test\LoginTest.java
 D:\java\MavenProject\src\test\java\utils\TestNGListener.java
+D:\java\MavenProject\src\test\java\utils\Jenkinsconfig.java
 D:\java\MavenProject\src\test\java\base\BaseTest.java
 D:\java\MavenProject\src\test\java\utils\ExtentManager.java
 D:\java\MavenProject\src\test\java\utils\Log.java

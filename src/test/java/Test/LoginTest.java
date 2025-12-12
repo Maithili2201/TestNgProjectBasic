@@ -19,6 +19,7 @@ public class LoginTest extends BaseTest{
 	}
 	
 	
+	
 	@Parameters({"username","password"})
 	@Test(priority=1,enabled=false,groups={"smoke","regression"})
 	public void loginValidCredentials(String username, String password) throws InterruptedException {

@@ -2,6 +2,7 @@ package1\ClassOne.class
 pages\LoginPage.class
 Test\LoginTest.class
 utils\RetryAnalyzer.class
+utils\EnvironmentManager.class
 pages\DashboardPage.class
 utils\ConfigReader.class
 utils\TestNGListener.class
@@ -9,5 +10,6 @@ utils\RetryListener.class
 base\BasePage.class
 base\BaseTest.class
 utils\DataProviderUtils.class
+utils\Jenkinsconfig.class
 utils\Log.class
 utils\ExtentManager.class
